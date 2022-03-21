@@ -1,6 +1,5 @@
 
 
-
 .navegacion
 {	
 
@@ -54,13 +53,6 @@
 
 }
 
-.navbar > .logo{
-
-	display: inline-block;
-	width: 10%;
-	float: left;
-
-}
 
 
 .navbar > ul > li > a:hover{
@@ -74,12 +66,11 @@
 
 .navbar > ul > li{
 	float: right;
-	width: 5%;
-	margin-left: 2%;
+	width: 10%;
+	margin-left: 1%;
 }
 
 .navbar > ul > li > a{
-
 
 	display: block;
   	color: white;
@@ -87,18 +78,9 @@
   	padding: 10px 2px;
   	text-decoration: none;
   	margin-top: 3px;
+
 }
 
-.logo{
-	width: 20%;	
-}
-
-.logo > a > img {
-
-width: 40px;
-height: 40px;
-	
-}
 
 .titulo{
 	position: relative;
@@ -156,14 +138,12 @@ height: 40px;
 }
 
 
-h1, .h1{
+.h1{
 
 
 font-size: 50px;
 
 }
-
-/* BORRAR */
 
 .primera{
 
@@ -173,13 +153,10 @@ font-size: 50px;
 }
 
 .rebajas{
-
-
 	position: relative;
-	/*top: 20%;*/
-
-
 }
+
+
 
 .segunda{
 	
@@ -205,7 +182,7 @@ font-size: 50px;
 
 	padding-top: 5%;
 	padding-left: 15%;
-	height: 100vh;
+	height: 100%;
 	padding-right: 15%;
 
 }
@@ -222,19 +199,117 @@ h3{
 
 margin-top: 4%;
 
+
 }
 
-.Caja{
+.Caja1{
 	
 	text-align: center;
 	width: 40%;
-	margin-left: 5%;
+	margin-left: 10%;
 	padding: 0%;
 	overflow: hidden;
+}
+
+.Caja2{
+	
+	text-align: center;
+	width: 40%;
+	margin-left: 4%;
+	padding: 0%;
+	overflow: hidden;
+}
+
+.marco{
+
+	position: relative;
+	width: 100%;
+	height: 45%;
+	overflow: hidden;
+}
+
+.marco:hover > img{
+
+	transform: scale(1.1);s	
+
+}
+
+
+.text{
+	position: absolute;
+	left: 2%;
+	bottom: 0;
+	color: white;
+	font-family: rubik;
+	font-size: 20px;
+}
+
+
+.marco2{
+	margin-top: 5%;
+	position: relative;
+	width: 100%;
+	height: 35%;
+	overflow: hidden;
+
+}
+
+
+
+.marco2:hover > img{
+
+	transform: scale(1.1);s
 
 
 }
 
+.marco3{
+
+	position: relative;
+	width: 95%;
+	height: 83%;
+	overflow: hidden;
+}
+
+.marco3:hover > img{
+
+	transform: scale(1.1);s	
+
+}
+.img1{
+
+	width: 100%;
+	height: 100%;
+
+ 	transition: 1.5s ease;
+	
+
+}
+
+
+.transition {
+    -webkit-transform: scale(1.8); 
+    -moz-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+
+
+.img2{
+	
+	width: 100%;
+	height: 100%;
+	transition: 2s ease;
+}
+
+.img3{
+
+	width: 100%;
+	height: 100%;
+	transition: 1.5s ease;
+
+}
 
 .capsula{
 
@@ -245,24 +320,27 @@ height: 100%;
 width: 28%;
 margin-left: 5%;
 padding: 0%;
-
 font-weight: bolder;
 font-size: 100%;
 }
 
 
 
+a{
 
+	text-decoration: none;
+}
 
-.capsula > img {
+.capsula > a >img {
 
 width: 100%;
 height: 250px;
 
 }
 
-.capsula > p {
-	
+.capsula > a > p {
+	color: black;
+	text-decoration: none;
 	height: 17%;
 	padding-top: 2.25%;
 	padding-bottom: 2.25%;
@@ -271,7 +349,7 @@ height: 250px;
 
 }
 
-.capsula:hover > p{
+.capsula:hover > a > p{ 
 
 	text-decoration: underline;
 }
@@ -288,3 +366,141 @@ height: 250px;
 	margin-top: 2%;
 	font-size: 20px;
 }
+
+.final{
+	
+	margin-top: 10%;
+	width: 100%;
+	
+	background-color: #1a75ff;
+	
+}
+
+
+.colfinal{
+	position: relative;
+	width: 33%;
+	float: left;
+	height: 350px;
+	text-align: center
+	
+}
+
+.contacto{
+
+	color: white; font-size: 30px; position: absolute; top: 15%; left: 8%
+}
+
+.colfinal1{
+	position: relative;
+	width: 33%;
+	float: left;
+	height: 100%;
+	height: 300px
+}
+
+
+.formulario1{
+
+	
+	width: 100%;
+	height:100%;
+	padding-bottom: 130px;
+}
+
+
+.letrasFormulario{
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+
+
+.input1{
+	
+	width: 60%;
+	height: 40px;
+	padding-left: 1%;
+	outline: none;
+}
+
+.input2{
+	
+	width: 60%;
+	height: 80px;
+	margin-bottom: 3%;
+	padding-left: 1%;
+	outline: none;
+}
+
+.p2{
+
+color: white;font-size: 30px; margin-top: 100px;
+
+}
+
+.madrid{
+position: absolute; top: 15%; left: 40%; color: white; font-size: 40px;
+	
+}
+
+
+.boton{
+	width: 60%;
+	height: 40px;
+	background-color: #666666;
+	border-style: groove red;
+	color: white;
+	font-weight: bold;
+}
+
+.icon{
+	position: relative;
+	color: white;
+	font-size: 40px;
+	margin-left: 10px ;
+
+}
+
+.icon1{
+	
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	top: 35%;
+	left: 9%;
+
+}
+
+.letrasmovil{color: white;position: absolute;top: 35%; left: 18%; font-size: 20px}
+
+.email{color: white;position: absolute;top: 45%; left: 18%; font-size: 20px}
+
+.icon2{
+	
+color: white; font-size: 25px; position: absolute; top: 45%; left: 8%
+
+}
+
+
+.clearer{
+	clear: both;
+}
+
+
+.mapita{
+width: 435px; height: 330px; margin-top: 30px;
+
+}
+
+.mapa{
+
+	width: 50%;
+	
+	padding: 10px 10px 10px 10px;
+	float: right;
+	margin-right: 95px;
+}
+

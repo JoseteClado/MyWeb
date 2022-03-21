@@ -1,0 +1,35 @@
+.input1{
+	
+	width: 30%;
+	height: 40px;
+	padding-left: 1%;
+	outline: none;
+}
+
+.input2{
+	
+	width: 30%;
+	height: 40px;
+	
+	padding-left: 1%;
+	outline: none;
+}
+
+.boton{
+
+	width: 10%;
+	height: 40px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+}
+
+.boton:hover{
+
+	width: 10%;
+	height: 40px;
+	color: white;
+	background-color: black;
+	font-weight: bold;
+
+}

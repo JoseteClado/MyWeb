@@ -6,12 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css./responsive.css">
 
 
     <title>Spanish Tour</title>
+
   </head>
   
 
@@ -21,12 +26,11 @@
   <div class="navegacion">
     <!--Navbar -->
     <div class="navbar">
-    
+      
       <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
+        <li><a style="width: 150px  margin-right: 10px;" href="./pages/inicioSesion.html">Iniciar sesión</a></li>
+        <li style="margin-right: 0"><a style="width: 100px" href="./pages/registro.html">Registrarse</a></li>
+        <li style="float: left !important; color: white; outline: none;width: 110px"><a href="./index.html">Inicio</a></li>
       </ul>
     </div>
 
@@ -39,25 +43,7 @@
     <input type="text" id="fname" name="fname" placeholder="Buscar...">
   </form>
 
-  </div> <!-- Div de navegación-->
-            
-     
-            <!-- prueba -->
-     <!--<div class="row w-100">
-        <div class="primera col-lg-6 col-md-3 text-center">
-                    
-          <div class="rebajas">
-              <h1>¿No sabes a dónde ir de vacaciones?</h1>
-              <p>Yo te ayudo crack</p>
-              </div>
-          </div>
-              
-          <div class="segunda col-lg-6 col-md-3">
-            <img class="españa" src="./imagenes/españita2.png">
-          </div>
-           
-      </div> -->
-
+  </div> 
 
 
     <div class="grandesito">
@@ -67,8 +53,26 @@
 
       <div class=" filita row w-100">
         
-        <div class="Caja"> <img src="./imagenes/Ourense.jpg"></div>
-        <div class="Caja"> <img src="./imagenes/bebe.jpeg"></div>
+        <div class="Caja1"> 
+          
+          <div class="marco">
+            <img class="img1" src="./imagenes/Ourense.jpg"/>
+            <div class="text"><p>Termas de Ourense</p></div>
+          </div>
+
+          <div class="marco2">
+            <img class="img2"src="./imagenes/urbano.jpg">
+             <div class="text"><p>Los mejores paisajes urbanos en Madrid</p></div>
+          </div>
+        </div>
+
+        <div class="Caja2">
+          
+          <div class="marco3">
+            <img class="img3" src="./imagenes/bebe.jpeg"/>
+            <div class="text"><p>Disfruta de la naturaleza en familia</p></div>
+          </div>
+        </div>
 
       </div>
 
@@ -79,17 +83,27 @@
 
       <div class=" filita row w-100">
         
-        <div class="capsula"> 
+        
+        <div class="capsula">
+        <a href="./pages/comunidad.html"> 
           <img src="./imagenes/Coruña.jpg"/>
           <p>Galicia</p>
+        </a>
         </div>
+      
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/asturias.jpg"/>
           <p>Asturias</p>
-        </div>
+        </a>
+      </div>
+
+
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/madrid.jpg"/>
           <p>Madrid</p>
+        </a>
         </div>
 
       </div>
@@ -100,18 +114,24 @@
           
 
         <div class="capsula"> 
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Granada.jpg"/>
           <p>Andalucía</p>
+        </a>
         </div>
         
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Valencia.jpg"/>
           <p>Valencia</p>
+        </a>
         </div>
         
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Baleares.jpg"/>
           <p>Islas Baleares</p>
+        </a>
         </div>
 
       </div>
@@ -121,18 +141,24 @@
       <div class=" filita row w-100">
           
         <div class="capsula"> 
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Vasco.jpg"/>
           <p>País Vasco</p>
+        </a>
         </div>
         
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Barcelona.jpg"/>
           <p>Cataluña</p>
+        </a>
         </div>
         
         <div class="capsula">
+          <a href="./pages/comunidad.html">
           <img src="./imagenes/Canarias.png"/>
           <p>Islas canarias</p>
+        </a>
         </div>
 
       </div>
@@ -149,10 +175,51 @@
         </ol>
       </div>
 
+     </div>
+     
+     <!-- Pantalla pequeña desaparece-->
+      <div class="final row-100">
+      <div class="colfinal">
+        <p class="contacto">Contáctanos</p>
+        
+        <i class="icon1 fa-solid fa-phone"></i>
+        <p  class="letrasmovil">+34 637 71 51 65</p>
+       
+        <i class="icon2 fa-solid fa-envelope"></i>
+        <p class="email">Joseparedess283@gmail.com</p>
+        
+      
+      
+      </div>
+
+      <div class="colfinal">
+ 
+        <p class="p2">Visita nuestras redes</p>
 
 
-    </div>
+       
+        <div style="width: 100%;">
+         <a href="https://www.instagram.com/"><i  class="icon fa-brands fa-instagram"></i></a>
+         <a role="button"><i  class="icon fa-brands fa-twitter"></i></a>
+         <a role="button"><i  class="icon fa-brands fa-facebook-square"></i></a>
+        </div>
+      </div>
 
+      <div class="colfinal1">
+        <div class="formulario1">
+          <div class="letrasFormulario"><p >Introduce un comentario</p></div>
+          <form>
+            <br><input class="input1" type="text" id="fname" name="fname" placeholder="Tu nombre"></br>
+            <br><input class="input2"type="text" id="lname" name="lname" placeholder="Mensaje"></br>
+            <input class="boton" type="submit" value="Publicar"/>
+          </form>
+        </div>
+      </div>
     
+      <div class="clearer"></div>
+
+      </div>
+
+     <script src="https://kit.fontawesome.com/e006b04934.js" crossorigin="anonymous"></script>
   </body>
 </html>
